@@ -1,6 +1,5 @@
 class Memoization:
     def __init__(self):
-        self.n=0
         self.memo={}
     def memoization_fibonacci(self,n):
         if n in self.memo.keys():
